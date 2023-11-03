@@ -1,0 +1,70 @@
+/* Add a background image to the body */
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('itimage.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial,sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Rest of your CSS styles */
+/* Reset some default styles */
+/* ... */
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* ... */
+}
+
+/* Nav styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.project {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    padding: 15px;
+    color: #fff;
+}   
+
+h1, h2, h3 {
+    font-family: Monaco,monospace;
+
+}
+p{
+    font-family: Courier New,monospace;
+}
+/* Other styles */
+/* ... */
